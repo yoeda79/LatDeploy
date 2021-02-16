@@ -6,7 +6,7 @@ html, body {
 }
 
 .frontimg {
-    background-image: url(/csstest/frontimg.jpg);
+    background-image: url(/frontimg.jpg);
     position: relative;
     height: 100vh;
     /* background-repeat: no-repeat; */
