@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.frontimg {
+    background-image: url(/csstest/frontimg.jpg);
+    position: relative;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.fronttext {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+    background-color: black;
+}
+.nav > li {
+    font-size: 15px;
+    margin: auto;
+    display: inline-block;
+}
+.nav > li > a {
+    padding: 1.2em 1.6em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.nav > li > a:hover {
+    background-color: #286090;
+}
+.desktop {
+    display: none !important;
+}
+
+.section-intro, .section-edukasi, .section-kerja {
+    text-align: center;
+}
+.section-edukasi, .section-kerja {
+    display: inline-block;
+    margin-top: 3em;
+}
+.img-icon {
+    max-width: 12em;
+}
+#about-me {
+    padding: 2em 0;
+}
+.conten-kenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+#my-portofolio {
+    padding: 2em 0;
+}
+.title-portofolio, .title-kontak {
+    text-align: center;
+    text-decoration: underline;
+}
+.container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.img-portofolio {
+    max-width: 300px;
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.7em 0.5em;
+}
+
+hr {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#my-kontak {
+    padding: 2em 0;
+}
+.form-kontak, .kontak-info {
+    width: 100%;
+    text-align: center;
+}
+.inputan {
+    width: 85%;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+}
+.inputan > label {
+    display: block;
+    font-size: 1em;
+}
+.inputan > input, .inputan >  textarea {
+    width: 100%;
+    margin: .5em 0;
+    font-size: 1em;
+}
+.btn-kirim {
+    width: 86%;
+    border: none;
+    background-color: #286090;
+    color: white;
+    margin: .5em 0 .5em .3em;
+    padding: .5em 0;
+    font-size: 1em;
+}
+
+.kontak-desktop {
+    display: none;
+}
+.kontak-icon-bundle {
+    display: block;
+}
+.kontak-icon {
+    width: 70px;
+    margin: 1.5em;
+}
+.kontak-icon-in {
+    width: 60px;
+    margin: 2em;
+}
+.kontak-info > div {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    padding: 1.5em 0;
+}
+
+@media only screen and (min-width: 600px){
+    .desktop {
+        display: block !important;
+    }
+    .non-desktop {
+        display: none;
+    }
+    li.icon {
+        float: left;
+        margin: .3em 1em;
+        width: 45px;
+    }
+    .icon > img {
+        width: 100%;
+    }
+    ul.nav {
+        text-align: right;
+    }
+    .section-edukasi, .section-kerja {
+        width: 49.5%;
+        vertical-align: top;
+    }
+
+    #my-kontak {
+        vertical-align: top;
+    }
+    .form-kontak, .kontak-info {
+        width: 49.5%;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .kontak-desktop {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .kontak-icon-bundle {
+        display: inline-block;
+        min-width: 300px;
+        text-decoration: none;
+        color: black;
+    }
+    .kontak-icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .kontak-icon-in {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .kontak-info > div {
+        display: block;
+    }
+}

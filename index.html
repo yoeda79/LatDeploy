@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test CSS</title>
+</head>
+<body>
+    <div class="frontimg"><h1 class="fronttext">Selamat Datang di Website Saya</h1></div>
+    <ul class="nav">
+        <li class="icon desktop">
+            <img src="/csstest/assets/man.svg" alt="icon">
+        </li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#my-portofolio">My Portofolio</a></li>
+        <li><a href="#my-kontak">Contact Me</a></li>
+    </ul>
+    <div id="about-me">
+        <div class="section-intro">
+            <img src="/csstest/assets/man.svg" alt="" class="img-icon">
+            <p class="conten-kenalan">
+                Perkenalkan saya Masyuda, seorang Web developer yang berfokus dalam membuat tampilan website yang modern dan responsive
+            </p>
+        </div>
+        <div class="section-edukasi">
+            <img src="/csstest/assets/certificate.svg" alt="" class="img-icon">
+            <p class="conten-kenalan">
+                Saya telah mengikuti beberapa kelas khusus untuk membuat tampilan web responsive dan telah mempunyai beberapa sertifikat
+            </p>
+        </div>
+        <div class="section-kerja">
+            <img src="/csstest/assets/responsive-design.svg" alt="" class="img-icon">
+            <p class="conten-kenalan">
+                Saya telah mengusasi cara membuat tampilan website dengan menggunakan <b>HTML, CSS dan JavaScript</b> saya juga dapat menggunakan Framework modern seperti <b>Bootstrap</b>
+            </p>
+        </div>
+    </div>
+    <div id="my-portofolio">
+        <h1 class="title-portofolio">My Portofolio</h1>
+        <div class="container">
+            <img class="img-portofolio" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80" alt="">
+            <img class="img-portofolio" src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+            <img class="img-portofolio" src="https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=760&q=80" alt="">
+            <img class="img-portofolio" src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+        </div>
+    </div>
+    <hr>
+    <div id="my-kontak">
+        <h1 class="title-kontak">My Contact</h1>
+        <form class="form-kontak" action="">
+            <div class="inputan">
+                <label for="nama">Nama</label>
+                <input id="nama" type="text">
+            </div>
+            <div class="inputan">
+                <label for="email">Email</label>
+                <input id="email" type="email">
+            </div>
+            <div class="inputan">
+                <label for="Pesan">Pesan</label>
+                <textarea name="" id="pesan" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn-kirim" type="submit">Kirim</button>
+        </form>
+        <div class="kontak-info">
+            <h3 class="non-desktop">Ketuk salah satu untuk info lebih</h3>
+            <div>
+                <a class="kontak-icon-bundle" href="tel:0822-4797-4294">
+                    <img src="/csstest/assets/bxs-phone.svg" class="kontak-icon" alt="">
+                    <span class="kontak-desktop">0822-4797-4294</span>
+                </a>
+            </div>
+            <div>
+                <a class="kontak-icon-bundle" href="mailto:yoeda.79@gmail.com">
+                    <img src="/csstest/assets/bxs-envelope.svg" class="kontak-icon" alt="">
+                    <span class="kontak-desktop">yoeda.79@gmail.com</span>
+                </a>
+            </div>
+            <div>
+                <a class="kontak-icon-bundle" href="https://www.linkedin.com">
+                    <img src="/csstest/assets/linkedin.svg" class="kontak-icon-in" alt="">
+                    <span class="kontak-desktop">Krisna Masyuda</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © Kelas Website Responsive, Inc. All rights reserved.
+    </footer>
+</body>
+</html>
